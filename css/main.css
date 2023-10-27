@@ -2,6 +2,7 @@ body {
     background-color: #ddd;
 }
 
+
 #board {
     width: 100vw;
     height: 100vh;
@@ -11,6 +12,15 @@ body {
 #player {
     background-color: limegreen;
     position: absolute;
-    bottom: 0;
-    left: 0; 
 }
+
+.obstacle {
+    background-color: purple;
+    position: absolute;
+}
+
+#page-gameover {
+    text-align: center;
+    background-color: rgb(166, 161, 171);
+}
+
